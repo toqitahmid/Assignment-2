@@ -6,7 +6,7 @@
 }
 
 .container{
-    padding: 10% 10%;
+    padding:5% 10%;
     background-color: #170a2a;
     color: white;
 }
@@ -197,4 +197,60 @@ h2{
     font-size: 1.3rem;
     color: #00ff88;
 
+}
+
+/* host section  */
+.host{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: #351165;
+}
+.host-content{
+    max-width: 50%;
+}
+.host-content h3{
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+.host-content p{
+    font-size: 1.2rem;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+.host-content a{
+    padding-right: 1%;
+}
+
+/* footer section  */
+#footer-img{
+    background-image: url(./assets/footer-bg.png);
+    background-size: contain;
+    background-position: top center;
+    height: 50vh;
+    position: relative;
+}
+.footer-item{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 32%;
+    width: 35%;
+}
+.footer-item h3{
+    color: white;
+    font-size: 4rem;
+    padding: 5%;
+}
+.foot-act{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+}
+.footer-item p{
+    color: white;
 }
