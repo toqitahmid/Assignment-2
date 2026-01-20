@@ -100,7 +100,7 @@ h2{
 .techwave-fecilities{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -153,7 +153,7 @@ h2{
 .fecilities-card{
     padding: 5%;    
     text-align: justify;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .fecilities-card h3{
     font-size: 2rem;
@@ -161,5 +161,40 @@ h2{
 }
 .fecilities-card p{
     font-size: 1.3rem;
-    font-weight: 100;
+    font-weight: 200;
+}
+
+/* featured episode */
+.featured-episode{
+    display: flex;
+    justify-content: space-between;
+}
+.episodes-items{
+    margin: 2%;
+    min-height: 45vh;
+    border-radius: 20px;
+    background-color: #351165;
+}
+.episodes-items iframe{
+    width: 100%;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px ;
+}
+.episodes-items h3{
+    font-size: 1.5rem;
+    padding: 2% 2% 4% 2%;
+}
+.episodes-items p{
+    padding: 2% 2% 4% 2%;
+    font-size: 1.2rem;
+}
+.episodes-items img{
+    padding:  0% 0% 0% 2%;
+    
+}
+.time{
+    padding: 2% 2% 4% 2%;
+    font-size: 1.3rem;
+    color: #00ff88;
+
 }
