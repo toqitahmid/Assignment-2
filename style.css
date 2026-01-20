@@ -5,10 +5,30 @@
     box-sizing: border-box;
 }
 
+.font {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .container{
     padding:5% 10%;
     background-color: #170a2a;
     color: white;
+}
+.btn{
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color:whitesmoke;
+    border-style: none;
+    border-radius: 20px;
+    background: linear-gradient(rgb(138, 90, 229), rgb(180, 30, 118));
+    cursor: pointer;
+}
+.btn:hover{
+    color: #351165;
+    background: linear-gradient(rgb(70, 173, 241), rgb(240, 99, 247));
 }
 h2{
     text-align: center;
@@ -35,16 +55,17 @@ h2{
 .navlist a{
     text-decoration: none;
     color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 .navbar p{
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 700;
     color: white;
 }
 #wave{
-    font-style: linear-gradient(to right, rgb(155, 58, 32), rgb(201, 156, 11));
+    color: #00ff88;
 }
-
 /* header background img  */
 .header-bg{
     background-image:url(./assets/microphone.png) ,url(./assets/hero-circle.png), url(./assets/hero-bg.png);
@@ -62,13 +83,26 @@ h2{
     left:34%;
     color: white;
 }
+.new{
+    position: absolute;
+    left: 56%;
+    top: 19%;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #00ff88;
+    cursor: pointer;
+}
 .header-content h1{
     font-size: 3.5rem;
     margin-bottom: 3%;
 }
 .header-content p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 3%;
+    font-weight: 300;
 
 }
 
@@ -77,8 +111,9 @@ h2{
     text-align: center;
 }
 .podcast-content p{
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     padding-bottom: 3%;
+    font-weight: 200;
 }
 .podcast-achivment{
     display: flex;
@@ -88,11 +123,11 @@ h2{
     margin:2% 0%;
 }
 .podcast-achivment h3{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #00ff88;
 }
 .podcast-achivment p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 200;
 }
 
@@ -150,6 +185,9 @@ h2{
     grid-row: span 2;
     
 }
+#charged{
+    width:9%;
+}
 .fecilities-card{
     padding: 5%;    
     text-align: justify;
@@ -157,10 +195,11 @@ h2{
 }
 .fecilities-card h3{
     font-size: 2rem;
+    font-weight: 400;
     padding: 2% 0% 4% 0%;
 }
 .fecilities-card p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 200;
 }
 
@@ -181,12 +220,14 @@ h2{
     border-top-right-radius:20px ;
 }
 .episodes-items h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     padding: 2% 2% 4% 2%;
 }
 .episodes-items p{
-    padding: 2% 2% 4% 2%;
-    font-size: 1.2rem;
+    padding: 2% 2% 3% 2%;
+    font-size: 1.1rem;
+    font-weight: 200;
 }
 .episodes-items img{
     padding:  0% 0% 0% 2%;
@@ -213,10 +254,12 @@ h2{
 }
 .host-content h3{
     font-size: 2rem;
+    font-weight: 500;
     padding-bottom: 1%;
 }
 .host-content p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 200;
     padding-bottom: 1%;
     text-align: justify;
 }
