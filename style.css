@@ -6,8 +6,15 @@
 }
 
 .container{
-    max-width: 1440px;
-    margin: auto;
+    padding: 10% 10%;
+    background-color: #170a2a;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3%;
 }
 /* navbar */
 .navbar{
@@ -52,6 +59,107 @@
     text-align: center;
     position: absolute;
     top: 70%;
-    left:38%;
+    left:34%;
     color: white;
+}
+.header-content h1{
+    font-size: 3.5rem;
+    margin-bottom: 3%;
+}
+.header-content p{
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+
+}
+
+/* podcast-content */
+.podcast-content{
+    text-align: center;
+}
+.podcast-content p{
+    font-size: 1.35rem;
+    padding-bottom: 3%;
+}
+.podcast-achivment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin:2% 0%;
+}
+.podcast-achivment h3{
+    font-size: 3.5rem;
+    color: #00ff88;
+}
+.podcast-achivment p{
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+/* techwave facilities */
+.techwave-fecilities{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+#techwave_fecilities_main{
+    background-color: #230E3D;
+    padding: 5% 10%;
+}
+#techwave_fecilities_main h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+#sound{
+    background-color: #351165;
+    color: #ffffff;
+    grid-column: span 2;
+    grid-row: span 2;
+    
+}
+#sound img{
+    padding-top: 10%;
+
+}
+#mobile{
+    grid-column: span 3;
+    grid-row: span 1;
+    background-color: #351165;
+    color: #ffffff;
+}
+#community{
+    background-color: #351165;
+    color: #ffffff;
+    grid-column: span 3;
+    grid-row: span 1;
+}
+#rich{
+    background-color: #351165;
+    color: #ffffff;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+#interview{
+    background-color: #351165;
+    color: #ffffff;
+    grid-column: span 3;
+    grid-row: span 2;
+    
+}
+.fecilities-card{
+    padding: 5%;    
+    text-align: justify;
+    border-radius: 10px;
+}
+.fecilities-card h3{
+    font-size: 2rem;
+    padding: 2% 0% 4% 0%;
+}
+.fecilities-card p{
+    font-size: 1.3rem;
+    font-weight: 100;
 }
